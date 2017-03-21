@@ -8,13 +8,13 @@ def readData(data1):
 		    x = line.split()
 	return x
 
-teks1 = readData(data1)
-teks2 = readData(data2)
+dataa1 = readData(data1)
+dataa2 = readData(data2)
 
 same = []
 
-for x in teks1 :
-	for y in teks2:
+for x in dataa1 :
+	for y in dataa2:
 		if x==y :
 			counter = 0
 			for z in same :

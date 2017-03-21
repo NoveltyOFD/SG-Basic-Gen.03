@@ -10,14 +10,14 @@ def readData(data1):
 
 teks1 = readData(data1)
 
-b = []
+isi = []
 for i in teks1 :
 	if i == 'I' :
-		b.append('*')
+		isi.append('*')
 	elif i == 'and' or i == 'The' or i=='you':
-		b.append('*'*3)
+		isi.append('*'*3)
 	else :
-		b.append(i)
+		isi.append(i)
 
-asd = ' '.join(b)
+asd = ' '.join(isi)
 print (asd)
